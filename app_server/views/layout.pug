@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+body
+  .navbar.navbar-default.navbar-fixed-top.alert-info
+    .container
+      .navbar-header
+        a.navbar-brand(href='/') Course Horse
+        ul.nav.navbar-nav
+          li
+            a(href='/') My Courses
+
+  .container
+    block content
+
+    footer.alert-success
+        .row
+          .col-xs-12.text-center &copy; John Cornish 20201 Inc. LLC.
+
+  script(src='/javascripts/jquery-1.11.1.min.js')
+  script(src='/bootstrap/js/bootstrap.min.js')
+  script(src='/javascripts/validation.js')
+  script(src='/javascripts/showHideAssignments.js')

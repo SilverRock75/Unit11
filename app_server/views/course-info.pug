@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1 #{course.course_code} #{course.title}
+        p Instructor: #{course.instructor}
+        p Credits: #{course.credits}
+        p Blood sacrifice required: #{course.blood}
+        a.btn.btn-warning(href="/course/" + course._id + "/assignments/new") Add assignment
+        a.btn.btn-info#showAll Show all assignments
+        a.btn.btn-info#showUnsubmitted Show only unsubmitted assignments
+  #assignments
+    .row
+      .col-lg-10
+        each a in course.assignments
+          .panel.panel-danger.assignment(data-status=a.status)
+            .panel-heading.clearfix
+              a.panel-title.pull-left(href="/course/" + course._id + "/assignments/" + a._id)= a.name
+              a.btn.btn-warning.pull-right(href="/course/" + course._id + "/assignments/" + a._id + "/delete") Delete
+            .panel-body
+              p Due: #{a.due}
+              p Points: #{a.points}
+              p Status: #{a.status}

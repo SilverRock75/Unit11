@@ -1,0 +1,41 @@
+[
+    {
+        "course_code" : "LSCI-427",
+        "title" : "Human centered humanity",
+        "instructor" : "J. Ames",
+        "credits" : 3.0,
+        "blood" : "100%",
+        "assignments" : [
+            {
+                "_id" : ObjectId(),
+                "name" : "Unit 1 - Humans",
+                "due" : "12/01/1999",
+                "points" : 45,
+                "status" : "Not even on my radar"
+            },
+            {
+                "_id" : ObjectId(),
+                "name" : "Unit 2 - Humanity",
+                "due" : "12/01/2999",
+                "points" : 47,
+                "status" : "Due date sounds vaguely soon"
+            }
+        ]
+    },
+    {
+        "course_code" : "CSCI-404",
+        "title" : "Course not found",
+        "instructor" : "E. Reerer",
+        "credits" : 4.4,
+        "blood" : "4ml",
+        "assignments" : []
+    },
+    {
+        "course_code" : "CSCCSSE-123",
+        "title" : "Corporate Social Corporate-Centric Societal Structural Engineering",
+        "instructor" : "E. Sheer",
+        "credits" : 1.5,
+        "blood" : "0CC",
+        "assignments" : []
+    }
+]

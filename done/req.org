@@ -1,0 +1,20 @@
+* DONE Add db.js to the models folder. Be sure to include the code for monitoring connections and graceful shutdown, as well as the test to determine which environment to use.
+  :LOGBOOK:  
+  - State "DONE"       from "TODO"       [2018-03-09 Fri 20:16]
+  :END:      
+* DONE Create courses.js to define the schema for the app (similar to the text example, this will be based on the controller and views created in Unit 8).
+  :LOGBOOK:  
+  - State "DONE"       from "TODO"       [2018-03-09 Fri 20:17]
+  :END:      
+* DONE For the course collection, the course ID and name should be required. For each assignment, the assignment name and due date are required. Points should have a default of 0 and should be between 0 and 100.
+  :LOGBOOK:  
+  - State "DONE"       from "TODO"       [2018-03-09 Fri 20:33]
+  :END:      
+* Create a json file to load the collections. You should have at least two courses, and one course should have at least two assignments (you will likely use the same data as in Unit 8, although that's not required).
+* Test this first on your local host
+* Then load onto mongoLab
+* Push to heroku
+* Ease of grading
+** Development
+** Production
+** Heroku

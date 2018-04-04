@@ -1,0 +1,61 @@
+* Home
+** DONE (4) Home page has been updated to use the list of courses from the database.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 14:44]
+   :END:      
+* Course info
+** DONE (2) Title has course id and name (matches link clicked on home page)
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 14:45]
+   :END:      
+** DONE (5) Assignment header has a Delete button. When pressed, the assignment is deleted and the page redisplays (obviously without that assignment). No "are you sure" is required.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-26 Mon 20:42]
+   :END:      
+** DONE (10) "Show only unsubmitted assignments" button has been added to this page. When clicked, only assignments that do not have status of "Submitted" will be displayed.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 19:47]
+   :END:      
+** DONE (4) "Show all assignments" button also added to the page. If clicked, all assignments will be shown. Note that this behavior is the same as the default behavior when the page loads (i.e., click on a course and all assignments are shown; click "show only..." and only unsubmitted assignments shown; click "show all..." and all assignments are shown again).
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 19:47]
+   :END:      
+* Add assignment
+** DONE (4) Course title now comes from database
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 14:49]
+   :END:      
+** DONE (4) Submit button should actually save the record. NOTE: I changed title from Add Assignment to Submit, so I could use the same view for both adding and editing. You're not required to use the same view, but I encourage you to try (being DRY - don't repeat yourself - is one of the most important software engineering practices).
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 14:50]
+   :END:      
+** DONE (5) If any field is left blank, an error message displays that all fields are required, and the page is redisplayed (retaining the information would be nice, but is beyond our current scope).
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 15:01]
+   :END:      
+** DONE (5) If the points are out of range (i.e., < 0 or > 100), display an appropriate error message and redisplay the page. NOTE: the text shows how to do validation for a model, but does not show how to do this type of error message... you'll need to figure out a solution.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-24 Sat 20:05]
+   :END:      
+* Edit assignment
+** DONE (10) Page is like Add Assignment except it shows the current information as a default.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-26 Mon 16:01]
+   :END:      
+** DONE (2) Page includes same validations (required fields, point range) as for Add Assignments.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-26 Mon 16:34]
+   :END:      
+** DONE (4) Assignment is updated when Submit is pressed.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-26 Mon 16:34]
+   :END:      
+* Heroku
+** DONE (5) Your application must be posted on Heroku, with reasonable default data on MongoLab.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-26 Mon 21:07]
+   :END:      
+** DONE (2) For grading, simply submit your Heroku URL.
+   :LOGBOOK:  
+   - State "DONE"       from "TODO"       [2018-03-26 Mon 21:07]
+   :END:      
