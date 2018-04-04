@@ -5,7 +5,7 @@ var apiOptions = {
 };
 
 if (process.env.NODE_ENV === 'production') {
-    apiOptions.server = 'https://thawing-garden-84290.herokuapp.com/';
+    apiOptions.server = 'https://course-horse.herokuapp.com';
 }
 
 var renderHomepage = function(req, res, responseBody) {
