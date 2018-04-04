@@ -1,14 +1,14 @@
 [
     {
-        "course_code" : "LSCI-427",
-        "title" : "Human centered humanity",
+        "course_code" : "LAIS-420",
+        "title" : "Plant centered humanities",
         "instructor" : "J. Ames",
         "credits" : 3.0,
         "blood" : "100%",
         "assignments" : [
             {
                 "_id" : ObjectId(),
-                "name" : "Unit 1 - Humans",
+                "name" : "Unit 1 - Seeing the Forest Through the Trees",
                 "due" : "12/01/1999",
                 "points" : 45,
                 "status" : "Not even on my radar"

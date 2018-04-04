@@ -21,10 +21,10 @@ var renderHomepage = function(req, res, responseBody) {
     }
 
     res.render('courses-list', {
-        title: 'Course Horse - stay on course with no remorse, of course',
+        title: 'Thawing Garden - For when you are about to blossom',
         pageHeader: {
             title: 'Course Horse',
-            strapline: 'Tired of screaming yourself hoarse? Reign in your assignments an stay on course with no remorse. Course horse, of course!',
+            strapline: 'You may have been dormant, but now you can blossom!',
         },
         courses: responseBody,
         message: message,
